@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>MouvitDashboardPage</title>
+  <base href="https://vagi-pb.github.io/operator-dashoboard/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+<link rel="stylesheet" href="styles.b84c38e1bfe09ed6c5b6.css"></head>
+<body>
+  <app-root></app-root>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
+  <script>
+    function clicked() {
+      // alert("clicked");
+      TweenMax.to("#Capa_1", 0.1, { x: "+=2", yoyo: true, repeat: 5 });
+      TweenMax.to("#Capa_1", 0.1, { x: "-=2", yoyo: true, repeat: 5 });
+    }
+  
+    function alertClicked() {
+      TweenMax.to(".alarm", 0.1, { x: "+=2", yoyo: true, repeat: 5 });
+      TweenMax.to(".alarm", 0.1, { x: "-=2", yoyo: true, repeat: 5 });
+    }
+  </script>
+<script src="runtime.0e49e2b53282f40c8925.js" defer></script><script src="polyfills.c654f3f257f747c949e8.js" defer></script><script src="main.ce986243d1703baa0364.js" defer></script></body>
+</html>
